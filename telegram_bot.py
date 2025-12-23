@@ -5,7 +5,7 @@ from collections import defaultdict
 
 # ================= CONFIG =================
 API_TOKEN = '8539161053:AAHaZM5-W2q7CpuMnq6CsH74rV2SYq5f0wI' 
-MY_CHAT_ID = '8490041883' 
+MY_CHAT_ID = '-1002384693828' 
 
 bot = telebot.TeleBot(API_TOKEN)
 
