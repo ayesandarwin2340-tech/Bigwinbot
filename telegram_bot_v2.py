@@ -61,7 +61,12 @@ def pro_predict(results):
         "BSSSB": "SMALL", "SBBBS": "BIG", "SBBSS": "BIG", "BSSBB": "SMALL",
         "BBSBB": "SMALL", "SSBSS": "BIG",
         "SBBBB": "BIG", "BSSSS": "SMALL",
-        "SSSSB": "SMALL", "BBBBS": "SMALL"
+        "SSSSB": "SMALL", "BBBBS": "SMALL",
+         "SSSBS": "SMALL", "BBBSB": "BIG",
+        "SBSSB": "SMALL", "BSBBS": "BIG",
+        "SSSBB": "BIG","BBBBB": "BIG",
+        "SSSSS": "SMALL","SBSSB": "BIG","BSBBS": "SMALL",
+        "BSSSB": "BIG","SBBBS": "SMALL","SBBSS": "SMALL"
     }
     pred = patterns.get(short_seq)
     if pred: return pred, 99
